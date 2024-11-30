@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+header {
+  background: linear-gradient(
+    to right,
+    #272e27,
+    #272e27 100px,
+    #3c453c 250px,
+    #272e27
+  );
+}
+.about .center p,
+.first_section .center .flex_container p,
+.second_section .flex_container p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+header,
+.third_section {
+  background-color: rgb(39, 46, 39);
+  padding-bottom: 15px;
+}
+
+nav ul li {
+  margin: 10px 10px 10px 0px;
+  padding: 7px 7px 7px 7px;
+  background-color: rgb(133, 174, 54);
+  border-radius: 5px;
+}
+nav ul li:hover {
+  background-color: orange;
+}
+
+nav ul li:active {
+  background-color: orange;
+}
+ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main .center,
+main .first_section,
+main,
+main .second_section {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+h1 {
+  font-size: 50px;
+}
+header p,
+header h1 {
+  color: white;
+}
+.orange {
+  color: rgb(216, 158, 83);
+}
+.Sidebar h2,
+.Sidebar li,
+.Sponsors h2,
+.Sponsors p {
+  padding: 5px 5px 5px 5px;
+}
+.Sponsors p:nth-child(3),
+.Sponsors p:nth-child(5),
+.Sponsors p:nth-child(7) {
+  margin-left: 10px;
+}
+.first_section img,
+.second_section img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 10px 5px 0px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid darkgrey;
+}
+.third_section {
+  color: white;
+}
+.Image img {
+  margin: 20px 15px 0px 0px;
+  border: 1px solid white;
+}
+.About img {
+  float: left;
+}
+.About p,
+.contact p,
+.About img {
+  margin: 10px 15px 0px 0px;
+}
+.Image {
+  margin-right: 30px;
+}
+.first_section .center div h2 {
+  margin: 15px 0px 15px 0px;
+}
+.first_section .center .paragraph1 {
+  margin-bottom: 35px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  border: 1px solid lightgrey;
+  margin-bottom: 25px;
+}
+form textarea {
+  height: 100px;
+}
+form input[type="submit"] {
+  padding: 3px 15px 3px 15px;
+  color: grey;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.third_section a {
+  color: rgb(158, 179, 97);
+}
+.title,
+.link {
+  color: rgb(158, 179, 97);
+}
+.link:hover {
+  color: orange;
+}
+footer {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  /* align-items: flex-end; */
+}
+footer ul li a:hover {
+  color: rgb(158, 179, 97);
+}
